@@ -1,6 +1,6 @@
 ﻿namespace DesignPatternsDemo.Builder
 {
-    class UserBuilder : IUserBuilder
+    class UserBuilder
     {
         User user;
         public UserBuilder(string? name)

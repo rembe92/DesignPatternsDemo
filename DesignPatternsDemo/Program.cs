@@ -1,2 +1,8 @@
-﻿// See https://aka.ms/new-console-template for more information
+﻿using DesignPatternsDemo.Behavial.ObserverPattern;
+
+// See https://aka.ms/new-console-template for more information
 Console.WriteLine("Hello, World!");
+
+Client.Demo();
+
+
