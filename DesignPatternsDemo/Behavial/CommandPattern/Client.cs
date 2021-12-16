@@ -1,4 +1,4 @@
-﻿namespace DesignPatternsDemo.Structural.CommandPattern
+﻿namespace DesignPatternsDemo.Behavial.CommandPattern
 {
     public class Client
     {

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace DesignPatternsDemo.Structural.CommandPattern
+namespace DesignPatternsDemo.Behavial.CommandPattern
 {
     internal class Command : ICommand
     {
