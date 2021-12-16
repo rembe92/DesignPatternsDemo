@@ -12,6 +12,16 @@
             AnotherAction = anotherAction;
         }
 
+        public void InvokeAction()
+        {
+            Action.Execute();
+        }
+
+        public void InvokeAnotherAction()
+        {
+            AnotherAction.Execute();
+        }
+
 
     }
 }
