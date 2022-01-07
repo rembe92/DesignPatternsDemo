@@ -12,23 +12,27 @@
 
         public void Enter()
         {
-
+            state.Enter();
         }
 
         public void Pay()
         {
-
+            state.Pay();
         }
 
         public void PayOk()
         {
-
+            state.PayOk();
         }
 
         public void Failed()
         {
+            state.PayFailed();
+        }
 
-
+        public void ChangeState(IGateState state)
+        {
+            this.state = state;
         }
     }
 }
